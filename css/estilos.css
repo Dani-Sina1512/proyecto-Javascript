@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Istok Web', sans-serif; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.alert {
+  height: 1rem;
+  margin-bottom: 0;
+  text-align: center;
+  padding-bottom: 20px; }
+  .alert__text {
+    font-size: 13px; }
+
+.carousel {
+  width: 80%;
+  margin: auto; }
+  .carousel__imagen {
+    margin-top: 50px;
+    width: 1000px;
+    height: 400px; }
+
+.index__main__categorias {
+  margin: 50px auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.categorias__card {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 15px; }
+  .categorias__card__title {
+    color: white;
+    font-weight: 900;
+    font-size: 40px; }
+
+.card__remeras {
+  background-image: url(../recursos/categoria-remera.png); }
+
+.card__tazas {
+  background-image: url(../recursos/categoria-tazas.png); }
+
+.card__medias {
+  background-image: url(../recursos/categoria-medias.png); }
+
+.products {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px; }
+
+.navbar {
+  background-color: #f54343; }
+  .navbar .menu {
+    padding-left: 50px; }
+    .navbar .menu .shopcart {
+      margin-left: 270px; }
+  .navbar .nav-link {
+    color: white;
+    font-size: 17px; }
+  .navbar .nav__button {
+    color: white;
+    border: 1px solid white; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f54343;
+  padding-top: 20px; }
+  .footer__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .footer__left__navegacion__item {
+      color: white;
+      text-decoration: none; }
+  .footer__center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .footer__center__item {
+      display: flex;
+      padding: 5px; }
+      .footer__center__item__title {
+        color: white;
+        font-size: 17px;
+        margin: auto;
+        padding-top: 5px; }
+    .footer__center__icon {
+      height: 30px;
+      width: 30px; }
+      .footer__center__icon__leyend {
+        font-size: 17px;
+        color: white;
+        padding-left: 10px;
+        padding-top: 5px; }
+  .footer__right ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%; }
+    .footer__right ul li {
+      list-style: none;
+      padding-right: 15px; }
+
+.card-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 400px;
+  margin: 30px; }
+  .card-product__imagen {
+    width: 100%;
+    height: 100%; }
+  .card-product__leyend {
+    font-size: 13px;
+    padding-top: 10px; }
+  .card-product__precio {
+    color: #f54343;
+    font-weight: 600;
+    margin-bottom: 10px; }
+  .card-product__cuotas {
+    border: 1px solid #f54343;
+    border-radius: 3px;
+    height: 30px;
+    margin-bottom: 5px;
+    padding: 3px; }

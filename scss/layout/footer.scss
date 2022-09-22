@@ -1,0 +1,53 @@
+.footer{
+    @include flex (row,space-between,center);
+    background-color: #f54343;
+    padding-top: 20px;
+
+    &__left{
+        @include flex (column,center,center);
+        
+    
+        &__navegacion__item{
+        color: white;
+        text-decoration: none;}
+    }
+
+    &__center{
+        @include flex (column,center,center);
+        
+        &__item{
+            display:flex;
+            padding: 5px;
+        
+        
+            &__title{
+            color: white;
+            font-size: $font-xs;
+            margin: auto;
+            padding-top: 5px;}
+
+        }
+
+        &__icon{
+            height: 30px;
+            width: 30px;
+            
+            &__leyend{
+                font-size: $font-xs;
+                color: white;
+                padding-left: 10px;
+                padding-top: 5px;
+            }
+        }
+    }
+
+    &__right{
+        &  ul {
+            @include flex (row,center,center);
+            height: 100%; 
+                & li{
+              list-style: none;
+              padding-right: 15px; }
+        }   
+    }  
+}
